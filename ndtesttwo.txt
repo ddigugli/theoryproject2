@@ -1,0 +1,12 @@
+
+Machine name: ndtesttwo
+Initial String: nn
+[q1]n
+[q1]n
+n[q2]
+n[q2]
+n[q3]
+n[q3]
+nnq6
+Depth: 2
+String accepted in 6 steps (execution time)

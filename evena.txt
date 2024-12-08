@@ -1,0 +1,38 @@
+
+Machine name: evenA
+Initial String: a_
+[q1]_
+a[q2]
+a_qrej
+Depth: 2
+String rejected in 3 steps (execution time)
+
+Machine name: evenA
+Initial String: aa_
+[q1]a_
+a[q2]_
+aa[q3]
+aa_qacc
+Depth: 3
+String accepted in 4 steps (execution time)
+
+Machine name: evenA
+Initial String: aaa_
+[q1]aa_
+a[q2]a_
+aa[q3]_
+aaa[q2]
+aaa_qrej
+Depth: 4
+String rejected in 5 steps (execution time)
+
+Machine name: evenA
+Initial String: aaaa_
+[q1]aaa_
+a[q2]aa_
+aa[q3]a_
+aaa[q2]_
+aaaa[q3]
+aaaa_qacc
+Depth: 5
+String accepted in 6 steps (execution time)

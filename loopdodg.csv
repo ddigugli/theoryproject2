@@ -1,0 +1,11 @@
+loopdodg
+q0,q1,q2,qacc,qrej
+a
+a
+q0
+qacc
+qrej
+q0,a,q2,a,R
+q0,a,q1,a,R
+q1,a,q0,a,L
+q2,a,qacc,a,R

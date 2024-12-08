@@ -1,0 +1,13 @@
+ndtestone
+q1,q2,q3,q4,q5,q6,q7
+n
+n,_
+q1
+q7
+qreject
+q1,n,q2,n,R
+q1,n,q3,n,R
+q2,n,q4,n,R
+q2,n,q5,n,R
+q3,n,q6,n,R
+q3,n,q7,n,R

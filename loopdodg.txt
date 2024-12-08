@@ -1,0 +1,28 @@
+
+Machine name: loopdodg
+Initial String: a
+[q0]
+[q0]
+aqrej
+Depth: 1
+String rejected in 3 steps (execution time)
+
+Machine name: loopdodg
+Initial String: aa
+[q0]a
+[q0]a
+a[q2]
+a[q1]
+aaqacc
+Depth: 2
+String accepted in 4 steps (execution time)
+
+Machine name: loopdodg
+Initial String: aaa
+[q0]aa
+[q0]aa
+a[q2]a
+a[q1]a
+aaaqacc
+Depth: 2
+String accepted in 4 steps (execution time)
