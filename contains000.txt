@@ -1,0 +1,46 @@
+
+Machine name: contains000
+Initial String: 0
+[q0]
+0qreject
+Depth: 1
+String rejected in 2 steps (execution time)
+
+Machine name: contains000
+Initial String: 00
+[q0]0
+0[q1]
+00qreject
+Depth: 2
+String rejected in 3 steps (execution time)
+
+Machine name: contains000
+Initial String: 000
+[q0]00
+0[q1]0
+00[q2]
+000q3
+Depth: 3
+String accepted in 4 steps (execution time)
+
+Machine name: contains000
+Initial String: 0010
+[q0]010
+0[q1]10
+00[q2]0
+001[q0]
+0010qreject
+Depth: 4
+String rejected in 5 steps (execution time)
+
+Machine name: contains000
+Initial String: 001000
+[q0]01000
+0[q1]1000
+00[q2]000
+001[q0]00
+0010[q1]0
+00100[q2]
+001000q3
+Depth: 6
+String accepted in 7 steps (execution time)

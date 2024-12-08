@@ -1,0 +1,84 @@
+
+Machine name: bmiddleoddlen
+Initial String: a_
+[q0]_
+$_qreject
+Depth: 1
+String rejected in 2 steps (execution time)
+
+Machine name: bmiddleoddlen
+Initial String: b_
+[q0]_
+[q0]_
+x[q7]
+x_qacc
+Depth: 2
+String accepted in 4 steps (execution time)
+
+Machine name: bmiddleoddlen
+Initial String: aba_
+[q0]ba_
+$[q1]a_
+$[q1]a_
+$b[q1]_
+[q2]#a_
+$[q6]a_
+$#[q6]_
+$#x[q7]
+$#x_qacc
+Depth: 6
+String accepted in 9 steps (execution time)
+
+Machine name: bmiddleoddlen
+Initial String: abba_
+[q0]bba_
+$[q1]ba_
+$[q1]ba_
+$b[q1]a_
+$b[q1]a_
+[q2]#ba_
+$bb[q1]_
+$[q2]#a_
+$[q6]ba_
+$x[q3]a_
+$#[q6]a_
+$x#[q4]_
+$x[q5]x_
+$[q2]#x_
+[q2]x#x_
+$[q6]#x_
+$x[q6]x_
+$x#[q6]_
+$x#x_qreject
+Depth: 12
+String rejected in 19 steps (execution time)
+
+Machine name: bmiddleoddlen
+Initial String: bab_
+[q0]ab_
+[q0]ab_
+$[q1]b_
+$a[q1]_
+$a[q1]_
+$[q2]#_
+$x[q3]_
+$x#_qreject
+Depth: 5
+String rejected in 8 steps (execution time)
+
+Machine name: bmiddleoddlen
+Initial String: abab_
+[q0]bab_
+$[q1]ab_
+$[q1]ab_
+$b[q1]b_
+[q2]#ab_
+$ba[q1]_
+$ba[q1]_
+$[q6]ab_
+$b[q2]#_
+$#[q6]b_
+$bx[q3]_
+$bx#_qreject
+Depth: 6
+String rejected in 12 steps (execution time)

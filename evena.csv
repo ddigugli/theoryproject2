@@ -1,0 +1,12 @@
+evena
+q1,q2,q3,qacc
+a
+a,_
+q1
+qacc
+qrej
+q1,a,q2,a,R
+q2,_,qrej,_,R
+q2,a,q3,a,R
+q3,a,q2,a,R
+q3,_,qacc,_,R
